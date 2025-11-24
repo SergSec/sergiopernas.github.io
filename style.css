@@ -1,0 +1,45 @@
+body {
+    background-color: #000000;
+    color: #00ff66;
+    font-family: "JetBrains Mono", monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+.terminal {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.command {
+    color: #00e65c;
+    margin: 10px 0;
+}
+
+.output {
+    margin: 10px 0 20px 20px;
+    line-height: 1.6em;
+}
+
+.highlight {
+    color: #6bffb3;
+}
+
+ul.directory-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul.directory-list li {
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #00ff66;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #00ff99;
+}
